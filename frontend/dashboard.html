@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Water Leak Dashboard</title>
+  <link rel="stylesheet"href="./css/style.css"/>
+</head>
+<body>
+  <h1>💧 Real-Time Water Leak Dashboard</h1>
+
+  <div class="card">
+    <h3>Sensor Data</h3>
+    <p>Flow Rate: <span id="flow"></span></p>
+    <p>Pressure: <span id="pressure"></span></p>
+    <p>Level: <span id="level"></span></p>
+  </div>
+
+  <div class="card">
+    <h3>Leak Alerts</h3>
+    <p id="alert" class="alert">Loading...</p>
+  </div>
+
+  <script>
+    async function fetchData() {
+      try {
+        const response = await fetch("http://127.0.0.1:5000/sensor/latest");
+        const data = await response.json();
+
+        // Update values on page
+        document.getElementById("flow").textContent = data.sensor_data.flow_rate.toFixed(2);
+        document.getElementById("pressure").textContent = data.sensor_data.pressure.toFixed(2);
+        document.getElementById("level").textContent = data.sensor_data.level.toFixed(2);
+
+        if (data.alerts.length > 0) {
+          document.getElementById("alert").textContent = data.alerts.join(", ");
+          document.getElementById("alert").style.color = "red";
+        } else {
+          document.getElementById("alert").textContent = "No Leak Detected";
+          document.getElementById("alert").style.color = "green";
+        }
+      } catch (error) {
+        document.getElementById("alert").textContent = "Error connecting to backend!";
+        console.error("Error:", error);
+      }
+    }
+
+    // Fetch every 3 seconds
+    fetchData();
+    setInterval(fetchData, 3000);
+  </script>
+</body>
+</html>
