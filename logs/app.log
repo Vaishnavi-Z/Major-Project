@@ -1,0 +1,282 @@
+2025-11-02 23:45:46,915 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-11-02 23:45:46,915 - INFO - [33mPress CTRL+C to quit[0m
+2025-11-02 23:45:46,928 - INFO -  * Restarting with watchdog (windowsapi)
+2025-11-02 23:45:48,415 - WARNING -  * Debugger is active!
+2025-11-02 23:45:48,418 - INFO -  * Debugger PIN: 909-359-932
+2025-11-02 23:49:38,519 - INFO -  * Detected change in 'C:\\Users\\Vaishnavi Zendekar\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\sklearn\\utils\\validation.py', reloading
+2025-11-02 23:49:38,520 - INFO - 127.0.0.1 - - [02/Nov/2025 23:49:38] "GET /sensor/latest HTTP/1.1" 200 -
+2025-11-02 23:49:39,230 - INFO -  * Restarting with watchdog (windowsapi)
+2025-11-02 23:49:40,890 - WARNING -  * Debugger is active!
+2025-11-02 23:49:40,892 - INFO -  * Debugger PIN: 909-359-932
+2025-11-03 00:05:17,109 - INFO -  * Detected change in 'C:\\Users\\Vaishnavi Zendekar\\OneDrive\\Desktop\\MAJOR_PROJECT\\backend\\config.py', reloading
+2025-11-03 00:05:17,112 - INFO -  * Detected change in 'C:\\Users\\Vaishnavi Zendekar\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\flask\\__init__.py', reloading
+2025-11-03 00:05:17,113 - INFO -  * Detected change in 'C:\\Users\\Vaishnavi Zendekar\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\flask\\app.py', reloading
+2025-11-03 00:05:17,113 - INFO -  * Detected change in 'C:\\Users\\Vaishnavi Zendekar\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\flask\\sansio\\app.py', reloading
+2025-11-03 00:05:17,113 - INFO -  * Detected change in 'C:\\Users\\Vaishnavi Zendekar\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\flask\\sansio\\scaffold.py', reloading
+2025-11-03 00:05:17,114 - INFO -  * Detected change in 'C:\\Users\\Vaishnavi Zendekar\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\flask\\json\\__init__.py', reloading
+2025-11-03 00:05:17,114 - INFO -  * Detected change in 'C:\\Users\\Vaishnavi Zendekar\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\flask\\wrappers.py', reloading
+2025-11-03 00:05:17,115 - INFO -  * Detected change in 'C:\\Users\\Vaishnavi Zendekar\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\werkzeug\\datastructures\\__init__.py', reloading
+2025-11-03 00:05:17,115 - INFO -  * Detected change in 'C:\\Users\\Vaishnavi Zendekar\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\werkzeug\\wrappers\\__init__.py', reloading
+2025-11-03 00:05:17,116 - INFO -  * Detected change in 'C:\\Users\\Vaishnavi Zendekar\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\flask\\typing.py', reloading
+2025-11-03 00:05:17,118 - INFO -  * Detected change in 'C:\\Users\\Vaishnavi Zendekar\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\werkzeug\\sansio\\response.py', reloading
+2025-11-03 00:05:17,120 - INFO -  * Detected change in 'C:\\Users\\Vaishnavi Zendekar\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\werkzeug\\wrappers\\response.py', reloading
+2025-11-03 00:05:17,120 - INFO -  * Detected change in 'C:\\Users\\Vaishnavi Zendekar\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\werkzeug\\datastructures\\headers.py', reloading
+2025-11-03 00:05:17,126 - INFO -  * Detected change in 'C:\\Users\\Vaishnavi Zendekar\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\numpy\\typing\\__init__.py', reloading
+2025-11-03 00:05:17,126 - INFO -  * Detected change in 'C:\\Users\\Vaishnavi Zendekar\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\scipy\\sparse\\__init__.py', reloading
+2025-11-03 00:05:17,127 - INFO -  * Detected change in 'C:\\Users\\Vaishnavi Zendekar\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\numpy\\_typing\\__init__.py', reloading
+2025-11-03 00:05:17,128 - INFO -  * Detected change in 'C:\\Users\\Vaishnavi Zendekar\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\numpy\\_typing\\_nested_sequence.py', reloading
+2025-11-03 00:05:17,128 - INFO -  * Detected change in 'C:\\Users\\Vaishnavi Zendekar\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\numpy\\_typing\\_nbit_base.py', reloading
+2025-11-03 00:05:17,128 - INFO -  * Detected change in 'C:\\Users\\Vaishnavi Zendekar\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\numpy\\_typing\\_shape.py', reloading
+2025-11-03 00:05:17,128 - INFO -  * Detected change in 'C:\\Users\\Vaishnavi Zendekar\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\numpy\\_typing\\_array_like.py', reloading
+2025-11-03 00:05:17,138 - INFO -  * Detected change in 'C:\\Users\\Vaishnavi Zendekar\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\scipy\\sparse\\_base.py', reloading
+2025-11-03 00:05:17,138 - INFO -  * Detected change in 'C:\\Users\\Vaishnavi Zendekar\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\scipy\\sparse\\_csr.py', reloading
+2025-11-03 00:05:17,139 - INFO -  * Detected change in 'C:\\Users\\Vaishnavi Zendekar\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\scipy\\sparse\\_csc.py', reloading
+2025-11-03 00:05:17,139 - INFO -  * Detected change in 'C:\\Users\\Vaishnavi Zendekar\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\scipy\\sparse\\_lil.py', reloading
+2025-11-03 00:05:17,139 - INFO -  * Detected change in 'C:\\Users\\Vaishnavi Zendekar\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\scipy\\sparse\\_dok.py', reloading
+2025-11-03 00:05:17,139 - INFO -  * Detected change in 'C:\\Users\\Vaishnavi Zendekar\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\scipy\\sparse\\_coo.py', reloading
+2025-11-03 00:05:17,140 - INFO -  * Detected change in 'C:\\Users\\Vaishnavi Zendekar\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\scipy\\sparse\\_dia.py', reloading
+2025-11-03 00:05:17,140 - INFO -  * Detected change in 'C:\\Users\\Vaishnavi Zendekar\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\scipy\\sparse\\_bsr.py', reloading
+2025-11-03 00:05:17,140 - INFO -  * Detected change in 'C:\\Users\\Vaishnavi Zendekar\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\scipy\\sparse\\_construct.py', reloading
+2025-11-03 00:05:17,140 - INFO -  * Detected change in 'C:\\Users\\Vaishnavi Zendekar\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\scipy\\sparse\\_extract.py', reloading
+2025-11-03 00:05:17,140 - INFO -  * Detected change in 'C:\\Users\\Vaishnavi Zendekar\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\scipy\\sparse\\_matrix.py', reloading
+2025-11-03 00:05:17,141 - INFO -  * Detected change in 'C:\\Users\\Vaishnavi Zendekar\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\scipy\\sparse\\_matrix_io.py', reloading
+2025-11-03 00:05:17,709 - INFO -  * Restarting with watchdog (windowsapi)
+2025-11-03 00:05:19,339 - WARNING -  * Debugger is active!
+2025-11-03 00:05:19,341 - INFO -  * Debugger PIN: 909-359-932
+2025-11-03 00:05:26,874 - INFO - 127.0.0.1 - - [03/Nov/2025 00:05:26] "GET /sensor/latest HTTP/1.1" 200 -
+2025-11-03 00:05:28,873 - INFO - 127.0.0.1 - - [03/Nov/2025 00:05:28] "GET /sensor/latest HTTP/1.1" 200 -
+2025-11-03 00:05:31,204 - INFO - 127.0.0.1 - - [03/Nov/2025 00:05:31] "GET /sensor/latest HTTP/1.1" 200 -
+2025-11-03 00:05:33,205 - INFO - 127.0.0.1 - - [03/Nov/2025 00:05:33] "GET /sensor/latest HTTP/1.1" 200 -
+2025-11-03 00:05:35,196 - INFO - 127.0.0.1 - - [03/Nov/2025 00:05:35] "GET /sensor/latest HTTP/1.1" 200 -
+2025-11-03 00:05:37,203 - INFO - 127.0.0.1 - - [03/Nov/2025 00:05:37] "GET /sensor/latest HTTP/1.1" 200 -
+2025-11-03 00:05:39,195 - INFO - 127.0.0.1 - - [03/Nov/2025 00:05:39] "GET /sensor/latest HTTP/1.1" 200 -
+2025-11-03 00:05:41,199 - INFO - 127.0.0.1 - - [03/Nov/2025 00:05:41] "GET /sensor/latest HTTP/1.1" 200 -
+2025-11-03 00:05:43,199 - INFO - 127.0.0.1 - - [03/Nov/2025 00:05:43] "GET /sensor/latest HTTP/1.1" 200 -
+2025-11-03 00:05:45,204 - INFO - 127.0.0.1 - - [03/Nov/2025 00:05:45] "GET /sensor/latest HTTP/1.1" 200 -
+2025-11-03 00:05:47,206 - INFO - 127.0.0.1 - - [03/Nov/2025 00:05:47] "GET /sensor/latest HTTP/1.1" 200 -
+2025-11-03 00:05:49,199 - INFO - 127.0.0.1 - - [03/Nov/2025 00:05:49] "GET /sensor/latest HTTP/1.1" 200 -
+2025-11-03 00:05:51,191 - INFO - 127.0.0.1 - - [03/Nov/2025 00:05:51] "GET /sensor/latest HTTP/1.1" 200 -
+2025-11-03 00:05:53,194 - INFO - 127.0.0.1 - - [03/Nov/2025 00:05:53] "GET /sensor/latest HTTP/1.1" 200 -
+2025-11-03 00:05:57,194 - INFO - 127.0.0.1 - - [03/Nov/2025 00:05:57] "GET /sensor/latest HTTP/1.1" 200 -
+2025-11-03 00:05:59,191 - INFO - 127.0.0.1 - - [03/Nov/2025 00:05:59] "GET /sensor/latest HTTP/1.1" 200 -
+2025-11-03 00:06:01,192 - INFO - 127.0.0.1 - - [03/Nov/2025 00:06:01] "GET /sensor/latest HTTP/1.1" 200 -
+2025-11-03 00:06:03,210 - INFO - 127.0.0.1 - - [03/Nov/2025 00:06:03] "GET /sensor/latest HTTP/1.1" 200 -
+2025-11-03 00:06:04,389 - INFO - 127.0.0.1 - - [03/Nov/2025 00:06:04] "GET /sensor/latest HTTP/1.1" 200 -
+2025-11-03 00:06:07,192 - INFO - 127.0.0.1 - - [03/Nov/2025 00:06:07] "GET /sensor/latest HTTP/1.1" 200 -
+2025-11-03 00:06:09,202 - INFO - 127.0.0.1 - - [03/Nov/2025 00:06:09] "GET /sensor/latest HTTP/1.1" 200 -
+2025-11-03 00:06:11,197 - INFO - 127.0.0.1 - - [03/Nov/2025 00:06:11] "GET /sensor/latest HTTP/1.1" 200 -
+2025-11-03 00:06:13,197 - INFO - 127.0.0.1 - - [03/Nov/2025 00:06:13] "GET /sensor/latest HTTP/1.1" 200 -
+2025-11-03 14:51:07,163 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-11-03 14:51:07,166 - INFO - [33mPress CTRL+C to quit[0m
+2025-11-03 14:51:07,204 - INFO -  * Restarting with watchdog (windowsapi)
+2025-11-03 14:51:10,756 - WARNING -  * Debugger is active!
+2025-11-03 14:51:10,767 - INFO -  * Debugger PIN: 664-492-519
+2025-11-03 14:51:44,531 - INFO -  * Detected change in 'C:\\Users\\Vaishnavi Zendekar\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\sklearn\\utils\\validation.py', reloading
+2025-11-03 14:51:44,533 - INFO - 127.0.0.1 - - [03/Nov/2025 14:51:44] "GET /sensor/latest HTTP/1.1" 200 -
+2025-11-03 14:51:44,683 - INFO - 127.0.0.1 - - [03/Nov/2025 14:51:44] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-11-03 14:51:45,245 - INFO -  * Restarting with watchdog (windowsapi)
+2025-11-03 14:51:49,729 - WARNING -  * Debugger is active!
+2025-11-03 14:51:49,733 - INFO -  * Debugger PIN: 664-492-519
+2025-11-03 14:52:26,393 - INFO - 127.0.0.1 - - [03/Nov/2025 14:52:26] "GET /sensor/latest HTTP/1.1" 200 -
+2025-11-03 14:52:28,397 - INFO - 127.0.0.1 - - [03/Nov/2025 14:52:28] "GET /sensor/latest HTTP/1.1" 200 -
+2025-11-03 14:52:30,391 - INFO - 127.0.0.1 - - [03/Nov/2025 14:52:30] "GET /sensor/latest HTTP/1.1" 200 -
+2025-11-03 14:52:32,403 - INFO - 127.0.0.1 - - [03/Nov/2025 14:52:32] "GET /sensor/latest HTTP/1.1" 200 -
+2025-11-03 14:52:34,394 - INFO - 127.0.0.1 - - [03/Nov/2025 14:52:34] "GET /sensor/latest HTTP/1.1" 200 -
+2025-11-03 14:52:36,390 - INFO - 127.0.0.1 - - [03/Nov/2025 14:52:36] "GET /sensor/latest HTTP/1.1" 200 -
+2025-11-03 14:52:38,399 - INFO - 127.0.0.1 - - [03/Nov/2025 14:52:38] "GET /sensor/latest HTTP/1.1" 200 -
+2025-11-03 14:52:41,025 - INFO - 127.0.0.1 - - [03/Nov/2025 14:52:41] "GET /sensor/latest HTTP/1.1" 200 -
+2025-11-03 14:52:42,399 - INFO - 127.0.0.1 - - [03/Nov/2025 14:52:42] "GET /sensor/latest HTTP/1.1" 200 -
+2025-11-03 14:52:45,201 - INFO - 127.0.0.1 - - [03/Nov/2025 14:52:45] "GET /sensor/latest HTTP/1.1" 200 -
+2025-11-03 14:52:47,209 - INFO - 127.0.0.1 - - [03/Nov/2025 14:52:47] "GET /sensor/latest HTTP/1.1" 200 -
+2025-11-03 14:52:49,195 - INFO - 127.0.0.1 - - [03/Nov/2025 14:52:49] "GET /sensor/latest HTTP/1.1" 200 -
+2025-11-03 14:52:51,196 - INFO - 127.0.0.1 - - [03/Nov/2025 14:52:51] "GET /sensor/latest HTTP/1.1" 200 -
+2025-11-03 14:52:57,202 - INFO - 127.0.0.1 - - [03/Nov/2025 14:52:57] "GET /sensor/latest HTTP/1.1" 200 -
+2025-11-03 14:52:59,210 - INFO - 127.0.0.1 - - [03/Nov/2025 14:52:59] "GET /sensor/latest HTTP/1.1" 200 -
+2025-11-03 14:53:01,209 - INFO - 127.0.0.1 - - [03/Nov/2025 14:53:01] "GET /sensor/latest HTTP/1.1" 200 -
+2025-11-03 15:02:26,592 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-11-03 15:02:26,592 - INFO - [33mPress CTRL+C to quit[0m
+2025-11-03 15:02:26,617 - INFO -  * Restarting with watchdog (windowsapi)
+2025-11-03 15:02:30,500 - WARNING -  * Debugger is active!
+2025-11-03 15:02:30,505 - INFO -  * Debugger PIN: 664-492-519
+2025-11-03 15:03:07,222 - INFO - 127.0.0.1 - - [03/Nov/2025 15:03:07] "GET /sensor/latest HTTP/1.1" 200 -
+2025-11-03 15:03:29,468 - INFO - 127.0.0.1 - - [03/Nov/2025 15:03:29] "GET /sensor/latest HTTP/1.1" 200 -
+2025-11-03 15:03:31,471 - INFO - 127.0.0.1 - - [03/Nov/2025 15:03:31] "GET /sensor/latest HTTP/1.1" 200 -
+2025-11-03 15:03:33,473 - INFO - 127.0.0.1 - - [03/Nov/2025 15:03:33] "GET /sensor/latest HTTP/1.1" 200 -
+2025-11-03 15:03:35,465 - INFO - 127.0.0.1 - - [03/Nov/2025 15:03:35] "GET /sensor/latest HTTP/1.1" 200 -
+2025-11-03 15:03:38,206 - INFO - 127.0.0.1 - - [03/Nov/2025 15:03:38] "GET /sensor/latest HTTP/1.1" 200 -
+2025-11-03 15:03:40,211 - INFO - 127.0.0.1 - - [03/Nov/2025 15:03:40] "GET /sensor/latest HTTP/1.1" 200 -
+2025-11-03 15:03:42,196 - INFO - 127.0.0.1 - - [03/Nov/2025 15:03:42] "GET /sensor/latest HTTP/1.1" 200 -
+2025-11-03 15:03:44,198 - INFO - 127.0.0.1 - - [03/Nov/2025 15:03:44] "GET /sensor/latest HTTP/1.1" 200 -
+2025-11-03 15:03:46,196 - INFO - 127.0.0.1 - - [03/Nov/2025 15:03:46] "GET /sensor/latest HTTP/1.1" 200 -
+2025-11-03 15:03:48,201 - INFO - 127.0.0.1 - - [03/Nov/2025 15:03:48] "GET /sensor/latest HTTP/1.1" 200 -
+2025-11-03 15:08:21,240 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-11-03 15:08:21,241 - INFO - [33mPress CTRL+C to quit[0m
+2025-11-03 15:08:21,266 - INFO -  * Restarting with watchdog (windowsapi)
+2025-11-03 15:08:24,891 - WARNING -  * Debugger is active!
+2025-11-03 15:08:24,896 - INFO -  * Debugger PIN: 664-492-519
+2025-11-03 15:08:27,751 - INFO - 127.0.0.1 - - [03/Nov/2025 15:08:27] "GET /sensor/latest HTTP/1.1" 200 -
+2025-11-03 15:08:30,723 - INFO - 127.0.0.1 - - [03/Nov/2025 15:08:30] "GET /sensor/latest HTTP/1.1" 200 -
+2025-11-03 15:08:33,721 - INFO - 127.0.0.1 - - [03/Nov/2025 15:08:33] "GET /sensor/latest HTTP/1.1" 200 -
+2025-11-03 15:08:36,718 - INFO - 127.0.0.1 - - [03/Nov/2025 15:08:36] "GET /sensor/latest HTTP/1.1" 200 -
+2025-11-03 15:08:40,208 - INFO - 127.0.0.1 - - [03/Nov/2025 15:08:40] "GET /sensor/latest HTTP/1.1" 200 -
+2025-11-03 15:08:42,717 - INFO - 127.0.0.1 - - [03/Nov/2025 15:08:42] "GET /sensor/latest HTTP/1.1" 200 -
+2025-11-03 15:08:45,719 - INFO - 127.0.0.1 - - [03/Nov/2025 15:08:45] "GET /sensor/latest HTTP/1.1" 200 -
+2025-11-03 15:08:49,211 - INFO - 127.0.0.1 - - [03/Nov/2025 15:08:49] "GET /sensor/latest HTTP/1.1" 200 -
+2025-11-03 15:08:52,203 - INFO - 127.0.0.1 - - [03/Nov/2025 15:08:52] "GET /sensor/latest HTTP/1.1" 200 -
+2025-11-03 15:08:55,203 - INFO - 127.0.0.1 - - [03/Nov/2025 15:08:55] "GET /sensor/latest HTTP/1.1" 200 -
+2025-11-03 15:08:58,197 - INFO - 127.0.0.1 - - [03/Nov/2025 15:08:58] "GET /sensor/latest HTTP/1.1" 200 -
+2025-11-03 15:09:01,202 - INFO - 127.0.0.1 - - [03/Nov/2025 15:09:01] "GET /sensor/latest HTTP/1.1" 200 -
+2025-11-03 15:09:04,203 - INFO - 127.0.0.1 - - [03/Nov/2025 15:09:04] "GET /sensor/latest HTTP/1.1" 200 -
+2025-11-03 15:09:07,205 - INFO - 127.0.0.1 - - [03/Nov/2025 15:09:07] "GET /sensor/latest HTTP/1.1" 200 -
+2025-11-03 15:09:07,217 - INFO - 127.0.0.1 - - [03/Nov/2025 15:09:07] "GET /sensor/latest HTTP/1.1" 200 -
+2025-11-03 15:09:07,225 - INFO - 127.0.0.1 - - [03/Nov/2025 15:09:07] "GET /sensor/latest HTTP/1.1" 200 -
+2025-11-03 15:09:07,238 - INFO - 127.0.0.1 - - [03/Nov/2025 15:09:07] "GET /sensor/latest HTTP/1.1" 200 -
+2025-11-03 15:09:07,249 - INFO - 127.0.0.1 - - [03/Nov/2025 15:09:07] "GET /sensor/latest HTTP/1.1" 200 -
+2025-11-03 15:09:10,204 - INFO - 127.0.0.1 - - [03/Nov/2025 15:09:10] "GET /sensor/latest HTTP/1.1" 200 -
+2025-11-03 15:09:13,202 - INFO - 127.0.0.1 - - [03/Nov/2025 15:09:13] "GET /sensor/latest HTTP/1.1" 200 -
+2025-11-03 15:09:16,198 - INFO - 127.0.0.1 - - [03/Nov/2025 15:09:16] "GET /sensor/latest HTTP/1.1" 200 -
+2025-11-03 15:09:19,204 - INFO - 127.0.0.1 - - [03/Nov/2025 15:09:19] "GET /sensor/latest HTTP/1.1" 200 -
+2025-11-03 15:09:22,199 - INFO - 127.0.0.1 - - [03/Nov/2025 15:09:22] "GET /sensor/latest HTTP/1.1" 200 -
+2025-11-03 15:09:25,210 - INFO - 127.0.0.1 - - [03/Nov/2025 15:09:25] "GET /sensor/latest HTTP/1.1" 200 -
+2025-11-03 15:09:28,209 - INFO - 127.0.0.1 - - [03/Nov/2025 15:09:28] "GET /sensor/latest HTTP/1.1" 200 -
+2025-11-03 15:09:31,204 - INFO - 127.0.0.1 - - [03/Nov/2025 15:09:31] "GET /sensor/latest HTTP/1.1" 200 -
+2025-11-03 15:09:32,901 - INFO - 127.0.0.1 - - [03/Nov/2025 15:09:32] "GET /sensor/latest HTTP/1.1" 200 -
+2025-11-03 15:09:34,201 - INFO - 127.0.0.1 - - [03/Nov/2025 15:09:34] "GET /sensor/latest HTTP/1.1" 200 -
+2025-11-03 15:09:37,200 - INFO - 127.0.0.1 - - [03/Nov/2025 15:09:37] "GET /sensor/latest HTTP/1.1" 200 -
+2025-11-03 15:09:40,209 - INFO - 127.0.0.1 - - [03/Nov/2025 15:09:40] "GET /sensor/latest HTTP/1.1" 200 -
+2025-11-03 15:09:43,206 - INFO - 127.0.0.1 - - [03/Nov/2025 15:09:43] "GET /sensor/latest HTTP/1.1" 200 -
+2025-11-03 15:09:46,204 - INFO - 127.0.0.1 - - [03/Nov/2025 15:09:46] "GET /sensor/latest HTTP/1.1" 200 -
+2025-11-03 15:16:03,984 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-11-03 15:16:03,985 - INFO - [33mPress CTRL+C to quit[0m
+2025-11-03 15:16:04,011 - INFO -  * Restarting with watchdog (windowsapi)
+2025-11-03 15:16:07,904 - WARNING -  * Debugger is active!
+2025-11-03 15:16:07,912 - INFO -  * Debugger PIN: 664-492-519
+2025-11-03 15:16:07,975 - INFO - 127.0.0.1 - - [03/Nov/2025 15:16:07] "[33mGET /api/sensor/latest HTTP/1.1[0m" 404 -
+2025-11-03 15:16:07,981 - INFO - 127.0.0.1 - - [03/Nov/2025 15:16:07] "[33mGET /api/sensor/latest HTTP/1.1[0m" 404 -
+2025-11-03 15:16:07,984 - INFO - 127.0.0.1 - - [03/Nov/2025 15:16:07] "[33mGET /api/sensor/latest HTTP/1.1[0m" 404 -
+2025-11-03 15:16:07,989 - INFO - 127.0.0.1 - - [03/Nov/2025 15:16:07] "[33mGET /api/sensor/latest HTTP/1.1[0m" 404 -
+2025-11-03 15:16:07,995 - INFO - 127.0.0.1 - - [03/Nov/2025 15:16:07] "[33mGET /api/sensor/latest HTTP/1.1[0m" 404 -
+2025-11-03 15:16:10,197 - INFO - 127.0.0.1 - - [03/Nov/2025 15:16:10] "[33mGET /api/sensor/latest HTTP/1.1[0m" 404 -
+2025-11-03 15:16:10,733 - INFO - 127.0.0.1 - - [03/Nov/2025 15:16:10] "[33mGET /api/sensor/latest HTTP/1.1[0m" 404 -
+2025-11-03 15:16:12,240 - INFO - 127.0.0.1 - - [03/Nov/2025 15:16:12] "[33mGET /api/sensor/latest HTTP/1.1[0m" 404 -
+2025-11-03 15:16:13,167 - INFO - 127.0.0.1 - - [03/Nov/2025 15:16:13] "[33mGET /api/sensor/latest HTTP/1.1[0m" 404 -
+2025-11-03 15:16:13,197 - INFO - 127.0.0.1 - - [03/Nov/2025 15:16:13] "[33mGET /api/sensor/latest HTTP/1.1[0m" 404 -
+2025-11-03 15:16:16,128 - INFO - 127.0.0.1 - - [03/Nov/2025 15:16:16] "[33mGET /api/sensor/latest HTTP/1.1[0m" 404 -
+2025-11-03 15:16:16,203 - INFO - 127.0.0.1 - - [03/Nov/2025 15:16:16] "[33mGET /api/sensor/latest HTTP/1.1[0m" 404 -
+2025-11-03 15:16:19,130 - INFO - 127.0.0.1 - - [03/Nov/2025 15:16:19] "[33mGET /api/sensor/latest HTTP/1.1[0m" 404 -
+2025-11-03 15:16:22,123 - INFO - 127.0.0.1 - - [03/Nov/2025 15:16:22] "[33mGET /api/sensor/latest HTTP/1.1[0m" 404 -
+2025-11-03 15:16:25,116 - INFO - 127.0.0.1 - - [03/Nov/2025 15:16:25] "[33mGET /api/sensor/latest HTTP/1.1[0m" 404 -
+2025-11-03 15:16:28,132 - INFO - 127.0.0.1 - - [03/Nov/2025 15:16:28] "[33mGET /api/sensor/latest HTTP/1.1[0m" 404 -
+2025-11-03 15:16:31,121 - INFO - 127.0.0.1 - - [03/Nov/2025 15:16:31] "[33mGET /api/sensor/latest HTTP/1.1[0m" 404 -
+2025-11-03 15:16:34,122 - INFO - 127.0.0.1 - - [03/Nov/2025 15:16:34] "[33mGET /api/sensor/latest HTTP/1.1[0m" 404 -
+2025-11-03 15:16:37,194 - INFO - 127.0.0.1 - - [03/Nov/2025 15:16:37] "[33mGET /api/sensor/latest HTTP/1.1[0m" 404 -
+2025-11-03 15:16:40,204 - INFO - 127.0.0.1 - - [03/Nov/2025 15:16:40] "[33mGET /api/sensor/latest HTTP/1.1[0m" 404 -
+2025-11-03 15:16:43,194 - INFO - 127.0.0.1 - - [03/Nov/2025 15:16:43] "[33mGET /api/sensor/latest HTTP/1.1[0m" 404 -
+2025-11-03 15:20:02,850 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-11-03 15:20:02,851 - INFO - [33mPress CTRL+C to quit[0m
+2025-11-03 15:20:02,884 - INFO -  * Restarting with watchdog (windowsapi)
+2025-11-03 15:20:06,821 - WARNING -  * Debugger is active!
+2025-11-03 15:20:06,826 - INFO -  * Debugger PIN: 664-492-519
+2025-11-03 15:20:06,879 - INFO - 127.0.0.1 - - [03/Nov/2025 15:20:06] "GET /sensor/latest HTTP/1.1" 200 -
+2025-11-03 15:20:06,888 - INFO - 127.0.0.1 - - [03/Nov/2025 15:20:06] "GET /sensor/latest HTTP/1.1" 200 -
+2025-11-03 15:20:06,896 - INFO - 127.0.0.1 - - [03/Nov/2025 15:20:06] "GET /sensor/latest HTTP/1.1" 200 -
+2025-11-03 15:20:06,913 - INFO - 127.0.0.1 - - [03/Nov/2025 15:20:06] "GET /sensor/latest HTTP/1.1" 200 -
+2025-11-03 15:20:06,914 - INFO - 127.0.0.1 - - [03/Nov/2025 15:20:06] "GET /sensor/latest HTTP/1.1" 200 -
+2025-11-03 15:20:06,927 - INFO - 127.0.0.1 - - [03/Nov/2025 15:20:06] "GET /sensor/latest HTTP/1.1" 200 -
+2025-11-03 15:20:06,936 - INFO - 127.0.0.1 - - [03/Nov/2025 15:20:06] "GET /sensor/latest HTTP/1.1" 200 -
+2025-11-03 15:20:07,744 - INFO - 127.0.0.1 - - [03/Nov/2025 15:20:07] "GET /sensor/latest HTTP/1.1" 200 -
+2025-11-03 15:20:09,199 - INFO - 127.0.0.1 - - [03/Nov/2025 15:20:09] "GET /sensor/latest HTTP/1.1" 200 -
+2025-11-03 15:20:09,213 - INFO - 127.0.0.1 - - [03/Nov/2025 15:20:09] "GET /sensor/latest HTTP/1.1" 200 -
+2025-11-03 15:20:09,226 - INFO - 127.0.0.1 - - [03/Nov/2025 15:20:09] "GET /sensor/latest HTTP/1.1" 200 -
+2025-11-03 15:20:10,750 - INFO - 127.0.0.1 - - [03/Nov/2025 15:20:10] "GET /sensor/latest HTTP/1.1" 200 -
+2025-11-03 15:20:12,248 - INFO - 127.0.0.1 - - [03/Nov/2025 15:20:12] "GET /sensor/latest HTTP/1.1" 200 -
+2025-11-03 15:20:12,267 - INFO - 127.0.0.1 - - [03/Nov/2025 15:20:12] "GET /sensor/latest HTTP/1.1" 200 -
+2025-11-03 15:20:12,280 - INFO - 127.0.0.1 - - [03/Nov/2025 15:20:12] "GET /sensor/latest HTTP/1.1" 200 -
+2025-11-03 15:20:15,205 - INFO - 127.0.0.1 - - [03/Nov/2025 15:20:15] "GET /sensor/latest HTTP/1.1" 200 -
+2025-11-03 15:20:15,214 - INFO - 127.0.0.1 - - [03/Nov/2025 15:20:15] "GET /sensor/latest HTTP/1.1" 200 -
+2025-11-03 15:20:15,222 - INFO - 127.0.0.1 - - [03/Nov/2025 15:20:15] "GET /sensor/latest HTTP/1.1" 200 -
+2025-11-03 15:20:18,212 - INFO - 127.0.0.1 - - [03/Nov/2025 15:20:18] "GET /sensor/latest HTTP/1.1" 200 -
+2025-11-03 15:20:21,214 - INFO - 127.0.0.1 - - [03/Nov/2025 15:20:21] "GET /sensor/latest HTTP/1.1" 200 -
+2025-11-03 15:26:31,546 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-11-03 15:26:31,547 - INFO - [33mPress CTRL+C to quit[0m
+2025-11-03 15:26:31,576 - INFO -  * Restarting with watchdog (windowsapi)
+2025-11-03 15:26:35,638 - WARNING -  * Debugger is active!
+2025-11-03 15:26:35,642 - INFO -  * Debugger PIN: 664-492-519
+2025-11-03 15:26:35,690 - INFO - 127.0.0.1 - - [03/Nov/2025 15:26:35] "GET /sensor/latest HTTP/1.1" 200 -
+2025-11-03 15:26:35,698 - INFO - 127.0.0.1 - - [03/Nov/2025 15:26:35] "GET /sensor/latest HTTP/1.1" 200 -
+2025-11-03 15:26:35,707 - INFO - 127.0.0.1 - - [03/Nov/2025 15:26:35] "GET /sensor/latest HTTP/1.1" 200 -
+2025-11-03 15:26:36,076 - INFO -  * Detected change in 'C:\\Users\\Vaishnavi Zendekar\\OneDrive\\Desktop\\MAJOR_PROJECT\\backend\\app.py', reloading
+2025-11-03 15:26:36,269 - INFO - 127.0.0.1 - - [03/Nov/2025 15:26:36] "GET /sensor/latest HTTP/1.1" 200 -
+2025-11-03 15:26:36,280 - INFO - 127.0.0.1 - - [03/Nov/2025 15:26:36] "GET /sensor/latest HTTP/1.1" 200 -
+2025-11-03 15:26:36,287 - INFO - 127.0.0.1 - - [03/Nov/2025 15:26:36] "GET /sensor/latest HTTP/1.1" 200 -
+2025-11-03 15:26:37,110 - INFO -  * Restarting with watchdog (windowsapi)
+2025-11-03 15:26:41,429 - WARNING -  * Debugger is active!
+2025-11-03 15:26:41,433 - INFO -  * Debugger PIN: 664-492-519
+2025-11-03 15:26:41,496 - INFO - 127.0.0.1 - - [03/Nov/2025 15:26:41] "GET /sensor/latest HTTP/1.1" 200 -
+2025-11-03 15:26:41,507 - INFO - 127.0.0.1 - - [03/Nov/2025 15:26:41] "GET /sensor/latest HTTP/1.1" 200 -
+2025-11-03 15:26:41,515 - INFO - 127.0.0.1 - - [03/Nov/2025 15:26:41] "GET /sensor/latest HTTP/1.1" 200 -
+2025-11-03 15:26:41,521 - INFO - 127.0.0.1 - - [03/Nov/2025 15:26:41] "GET /sensor/latest HTTP/1.1" 200 -
+2025-11-03 15:26:41,529 - INFO - 127.0.0.1 - - [03/Nov/2025 15:26:41] "GET /sensor/latest HTTP/1.1" 200 -
+2025-11-03 15:26:41,810 - INFO - 127.0.0.1 - - [03/Nov/2025 15:26:41] "GET /sensor/latest HTTP/1.1" 200 -
+2025-11-03 15:26:44,809 - INFO - 127.0.0.1 - - [03/Nov/2025 15:26:44] "GET /sensor/latest HTTP/1.1" 200 -
+2025-11-03 15:26:47,804 - INFO - 127.0.0.1 - - [03/Nov/2025 15:26:47] "GET /sensor/latest HTTP/1.1" 200 -
+2025-11-03 15:26:50,801 - INFO - 127.0.0.1 - - [03/Nov/2025 15:26:50] "GET /sensor/latest HTTP/1.1" 200 -
+2025-11-03 15:26:53,802 - INFO - 127.0.0.1 - - [03/Nov/2025 15:26:53] "GET /sensor/latest HTTP/1.1" 200 -
+2025-11-03 15:26:56,799 - INFO - 127.0.0.1 - - [03/Nov/2025 15:26:56] "GET /sensor/latest HTTP/1.1" 200 -
+2025-11-03 15:26:59,801 - INFO - 127.0.0.1 - - [03/Nov/2025 15:26:59] "GET /sensor/latest HTTP/1.1" 200 -
+2025-11-03 15:27:02,815 - INFO - 127.0.0.1 - - [03/Nov/2025 15:27:02] "GET /sensor/latest HTTP/1.1" 200 -
+2025-11-03 15:27:05,805 - INFO - 127.0.0.1 - - [03/Nov/2025 15:27:05] "GET /sensor/latest HTTP/1.1" 200 -
+2025-11-03 15:27:08,803 - INFO - 127.0.0.1 - - [03/Nov/2025 15:27:08] "GET /sensor/latest HTTP/1.1" 200 -
+2025-11-03 15:27:12,203 - INFO - 127.0.0.1 - - [03/Nov/2025 15:27:12] "GET /sensor/latest HTTP/1.1" 200 -
+2025-11-03 15:34:08,012 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-11-03 15:34:08,013 - INFO - [33mPress CTRL+C to quit[0m
+2025-11-03 15:34:08,037 - INFO -  * Restarting with watchdog (windowsapi)
+2025-11-03 15:34:12,073 - WARNING -  * Debugger is active!
+2025-11-03 15:34:12,079 - INFO -  * Debugger PIN: 664-492-519
+2025-11-03 15:34:12,138 - INFO - 127.0.0.1 - - [03/Nov/2025 15:34:12] "GET /sensor/latest HTTP/1.1" 200 -
+2025-11-03 15:34:12,147 - INFO - 127.0.0.1 - - [03/Nov/2025 15:34:12] "GET /sensor/latest HTTP/1.1" 200 -
+2025-11-03 15:34:12,159 - INFO - 127.0.0.1 - - [03/Nov/2025 15:34:12] "GET /sensor/latest HTTP/1.1" 200 -
+2025-11-03 15:34:13,211 - INFO - 127.0.0.1 - - [03/Nov/2025 15:34:13] "GET /sensor/latest HTTP/1.1" 200 -
+2025-11-03 15:34:13,528 - INFO - 127.0.0.1 - - [03/Nov/2025 15:34:13] "GET /sensor/latest HTTP/1.1" 200 -
+2025-11-03 15:34:16,207 - INFO - 127.0.0.1 - - [03/Nov/2025 15:34:16] "GET /sensor/latest HTTP/1.1" 200 -
+2025-11-03 15:34:16,533 - INFO - 127.0.0.1 - - [03/Nov/2025 15:34:16] "GET /sensor/latest HTTP/1.1" 200 -
+2025-11-03 15:34:19,207 - INFO - 127.0.0.1 - - [03/Nov/2025 15:34:19] "GET /sensor/latest HTTP/1.1" 200 -
+2025-11-03 15:34:20,207 - INFO - 127.0.0.1 - - [03/Nov/2025 15:34:20] "GET /sensor/latest HTTP/1.1" 200 -
+2025-11-03 15:36:10,009 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-11-03 15:36:10,009 - INFO - [33mPress CTRL+C to quit[0m
+2025-11-03 15:36:10,043 - INFO -  * Restarting with watchdog (windowsapi)
+2025-11-03 15:36:13,963 - WARNING -  * Debugger is active!
+2025-11-03 15:36:13,969 - INFO -  * Debugger PIN: 664-492-519
+2025-11-03 15:36:14,022 - INFO - 127.0.0.1 - - [03/Nov/2025 15:36:14] "GET /sensor/latest HTTP/1.1" 200 -
+2025-11-03 15:36:14,031 - INFO - 127.0.0.1 - - [03/Nov/2025 15:36:14] "GET /sensor/latest HTTP/1.1" 200 -
+2025-11-03 15:36:15,780 - INFO - 127.0.0.1 - - [03/Nov/2025 15:36:15] "GET /sensor/latest HTTP/1.1" 200 -
+2025-11-03 15:43:46,250 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-11-03 15:43:46,251 - INFO - [33mPress CTRL+C to quit[0m
+2025-11-03 15:43:46,278 - INFO -  * Restarting with watchdog (windowsapi)
+2025-11-03 15:43:50,429 - WARNING -  * Debugger is active!
+2025-11-03 15:43:50,437 - INFO -  * Debugger PIN: 664-492-519
+2025-11-03 15:43:54,060 - INFO - 127.0.0.1 - - [03/Nov/2025 15:43:54] "GET /sensor/latest HTTP/1.1" 200 -
+2025-11-03 15:43:57,067 - INFO - 127.0.0.1 - - [03/Nov/2025 15:43:57] "GET /sensor/latest HTTP/1.1" 200 -
+2025-11-03 15:44:00,069 - INFO - 127.0.0.1 - - [03/Nov/2025 15:44:00] "GET /sensor/latest HTTP/1.1" 200 -
+2025-11-03 15:44:03,066 - INFO - 127.0.0.1 - - [03/Nov/2025 15:44:03] "GET /sensor/latest HTTP/1.1" 200 -
+2025-11-03 15:44:06,071 - INFO - 127.0.0.1 - - [03/Nov/2025 15:44:06] "GET /sensor/latest HTTP/1.1" 200 -
+2025-11-03 15:44:09,058 - INFO - 127.0.0.1 - - [03/Nov/2025 15:44:09] "GET /sensor/latest HTTP/1.1" 200 -
+2025-11-03 15:44:12,058 - INFO - 127.0.0.1 - - [03/Nov/2025 15:44:12] "GET /sensor/latest HTTP/1.1" 200 -
+2025-11-03 15:44:15,062 - INFO - 127.0.0.1 - - [03/Nov/2025 15:44:15] "GET /sensor/latest HTTP/1.1" 200 -
+2025-11-03 15:44:18,059 - INFO - 127.0.0.1 - - [03/Nov/2025 15:44:18] "GET /sensor/latest HTTP/1.1" 200 -
+2025-11-03 15:45:54,873 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-11-03 15:45:54,874 - INFO - [33mPress CTRL+C to quit[0m
+2025-11-03 15:45:54,907 - INFO -  * Restarting with watchdog (windowsapi)
+2025-11-03 15:45:58,904 - WARNING -  * Debugger is active!
+2025-11-03 15:45:58,912 - INFO -  * Debugger PIN: 664-492-519
