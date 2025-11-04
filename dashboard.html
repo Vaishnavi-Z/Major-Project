@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Water Leak Dashboard</title>
+  <link rel="stylesheet"href="./css/style.css"/>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+  <h1>Real-Time Water Leak Dashboard</h1>
+
+  <div class="graph">
+    <h3>Flow rate over-time</h3>
+    <canvas id="flowChart"></canvas>
+    </div>
+
+    <div class="cards-container">
+  <div class="card">
+    <h3>Sensor Data</h3>
+    <p>Flow Rate: <span id="flow"></span></p>
+    <p>Pressure: <span id="pressure"></span></p>
+    <p>Level: <span id="level"></span></p>
+  </div>
+
+  <div class="card">
+    <h3>Leak Alerts</h3>
+    <p id="alert" class="alert">Loading...</p>
+  </div>
+</div>
+
+
+  <script>
+   let labels = [];
+let flowData = [];
+
+// Initialize the chart
+const ctx = document.getElementById('flowChart').getContext('2d');
+const flowChart = new Chart(ctx, {
+    type: 'line',
+    data: {
+        labels: labels,
+        datasets: [{
+            label: 'Flow Rate',
+            data: flowData,
+            borderColor: 'green',
+            backgroundColor: 'rgba(0,0,0,0)',
+            borderWidth: 2,
+            tension: 0.3, // smooth line
+            segment: {
+          borderColor: ctx => ctx.p0.custom?.leak || ctx.p1.custom?.leak ? 'red' : 'green'
+    }
+        }]
+    },
+    options: {
+       responsive:true,
+       maintainAspectRatio:false,
+        scales: {
+            x: { title: { display: true, text: 'Time (HH:MM)' } },
+            y: { title: { display: true, text: 'Flow Rate' }, min: 0 }
+        }
+    }
+});
+
+async function fetchData() {
+    try {
+        const response = await fetch("http://127.0.0.1:5000/sensor/latest");
+        const data = await response.json();
+
+        // Update cards
+        document.getElementById("flow").textContent = data.sensor_data.flow_rate.toFixed(2);
+        document.getElementById("pressure").textContent = data.sensor_data.pressure.toFixed(2);
+        document.getElementById("level").textContent = data.sensor_data.level.toFixed(2);
+
+        // Update alerts
+        const alertEl = document.getElementById("alert");
+        if (data.alerts.length > 0) {
+            alertEl.textContent = data.alerts.join(", ");
+            alertEl.style.color = "red";
+            flowChart.data.datasets[0].borderColor = 'red'; // Line red on leak
+        } else {
+            alertEl.textContent = "No Leak Detected";
+            alertEl.style.color = "green";
+            flowChart.data.datasets[0].borderColor = 'green'; // Line green if no leak
+        }
+
+        // Update chart
+        const now = new Date();
+        const timeLabel = now.getHours().toString().padStart(2,'0') + ":" + now.getMinutes().toString().padStart(2,'0');
+        labels.push(timeLabel);
+        flowData.push(data.sensor_data.flow_rate);
+
+        // Keep only last 20 points for clarity
+        if (labels.length > 20) {
+            labels.shift();
+            flowData.shift();
+        }
+
+        flowChart.update();
+
+    } catch (error) {
+        document.getElementById("alert").textContent = "Error connecting to backend!";
+        console.error("Error:", error);
+    }
+}
+
+// Initial fetch
+fetchData();
+// Fetch every 30 seconds
+setInterval(fetchData, 3000);
+  </script>
+</body>
+</html>

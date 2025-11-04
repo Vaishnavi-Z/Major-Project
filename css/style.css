@@ -1,0 +1,51 @@
+body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f6f8;
+      color: #333;
+      text-align: center;
+      padding: 20px;
+    }
+    h1 {
+      color: #0077cc;
+      font-family: cursive;
+    }
+    .cards-container {
+    display: flex;
+    justify-content: space-between; /* space between cards */
+    gap: 20px;                     /* optional spacing */
+    margin: 20px auto;
+    flex-wrap: wrap;               /* wrap on small screens */
+    width: 90%;                    /* container width */
+}
+    .card {
+      background: #fff;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      padding: 20px;
+      width: 300px;
+      flex:1;
+      margin: 20px auto;
+    }
+    .alert {
+      color: red;
+      font-weight: bold;
+      font-size: 25px;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    .graph
+    {
+      background:#fff;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      padding: 20px;
+      width:1200px;
+      margin:20px auto;
+      height:350px;
+      box-sizing: border-box;
+      position: relative;
+    }
+    .graph canvas {
+    width: 100% ;
+    height: 100% ;
+    display: block;
+}
