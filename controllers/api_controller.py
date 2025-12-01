@@ -9,5 +9,5 @@ api = Blueprint('api', __name__)
 def latest_sensor():
     data = get_sensor_data()
     alerts = detect_leak(data)
-    send_notification(alerts, data)
+    #send_notification(alerts, data)
     return jsonify({"sensor_data": data, "alerts": alerts})
