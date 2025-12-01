@@ -94,7 +94,7 @@ async function fetchData() {
     // Update dashboard cards
     document.getElementById("flow").textContent = flowRate.toFixed(2);
     document.getElementById("pressure").textContent = data.sensor_data.pressure.toFixed(2);
-    document.getElementById("level").textContent = data.sensor_data.level.toFixed(2);
+    //document.getElementById("level").textContent = data.sensor_data.level.toFixed(2);
 
     // Update alert text
     const alertEl = document.getElementById("alert");
