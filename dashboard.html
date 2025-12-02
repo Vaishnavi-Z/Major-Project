@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Water Leak Dashboard</title>
+  <link rel="stylesheet"href="./css/style.css"/>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chartjs-adapter-date-fns"></script>
+</head>
+<body>
+  <h1>Real-Time Water Leak Dashboard</h1>
+
+  <div class="graph">
+    <h3>Flow rate over-time</h3>
+    <canvas id="flowChart"></canvas>
+    </div>
+
+    <div class="cards-container">
+  <div class="card">
+    <h3>Sensor Data</h3>
+    <p>Flow Rate: <span id="flow"></span></p>
+    <p>Leak Rate: <span id="pressure"></span></p>
+    <!--<p>Level: <span id="level"></span></p>-->
+  </div>
+
+  <div class="card">
+    <h3>Leak Alerts</h3>
+    <p id="alert" class="alert">Loading...</p>
+  </div>
+</div>
+
+<!-- Notification Bell -->
+<div class="notification-container">
+  <button id="notificationBtn" class="notification-btn">
+    🔔
+  </button>
+
+  <!-- Notification Panel -->
+  <div id="notificationPanel" class="notification-panel">
+    <h4>Notifications</h4>
+    <ul id="notificationList">
+      <li class="green">🟢 No leak detected. System running fine.</li>
+    </ul>
+  </div>
+</div>
+
+<script src="js/dashboard.js"></script>
+</body>
+</html>

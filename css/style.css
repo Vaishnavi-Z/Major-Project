@@ -1,0 +1,116 @@
+body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f6f8;
+      color: #333;
+      text-align: center;
+      padding: 20px;
+    }
+    h1 {
+      color: #0077cc;
+      font-family: cursive;
+    }
+    .cards-container {
+    display: flex;
+    justify-content: space-between; /* space between cards */
+    gap: 20px;                     /* optional spacing */
+    margin: 20px auto;
+    flex-wrap: wrap;               /* wrap on small screens */
+    width: 90%;                    /* container width */
+}
+    .card {
+      background: #fff;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      padding: 20px;
+      width: 300px;
+      flex:1;
+      margin: 20px auto;
+    }
+    .alert {
+      color: red;
+      font-weight: bold;
+      font-size: 25px;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    .graph
+    {
+      background:#fff;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      padding: 20px;
+      width:1200px;
+      margin:20px auto;
+      height:350px;
+      box-sizing: border-box;
+      position: relative;
+    }
+    .graph canvas {
+    width: 100% ;
+    height: 100% ;
+    display: block;
+}
+/* Notification Button */
+.notification-container {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+}
+
+.notification-btn {
+  background: white;
+  border: none;
+  font-size: 25px;
+  cursor: pointer;
+  padding: 8px 10px;
+  border-radius: 50%;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.2);
+  transition: 0.2s ease;
+}
+
+.notification-btn:hover {
+  background-color: #f0f0f0;
+}
+
+/* Notification Panel */
+.notification-panel {
+  display: none;
+  position: absolute;
+  top: 50px;
+  right: 0;
+  width: 300px;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+  border: 1px solid #ddd;
+  z-index: 100;
+}
+
+.notification-panel h4 {
+  margin: 0;
+  padding: 10px;
+  font-size: 16px;
+  background-color: #f8f8f8;
+  border-bottom: 1px solid #ddd;
+}
+
+.notification-panel ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  max-height: 200px;
+  overflow-y: auto;
+}
+
+.notification-panel li {
+  padding: 10px;
+  border-bottom: 1px solid #eee;
+  font-size: 14px;
+}
+
+.notification-panel li.red {
+  color: #e74c3c;
+}
+
+.notification-panel li.green {
+  color: #27ae60;
+}
