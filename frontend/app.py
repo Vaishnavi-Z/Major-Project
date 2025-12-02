@@ -5,13 +5,11 @@ from utils.logger import setup_logger
 from flask_cors import CORS
 
 app = Flask(__name__)
-CORS(app)  # Allow frontend to access backend
+CORS(app)  # ← This allows frontend on a different port to access backend
 
 app.register_blueprint(api)
-
 # Setup logging
 setup_logger()
 
 if __name__ == "__main__":
-    # IMPORTANT: allow ESP32 to connect
-    app.run(host="0.0.0.0", port=5000, debug=True)
+    app.run(debug=True)

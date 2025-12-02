@@ -1,0 +1,45 @@
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #e0f7fa;
+    background-image: url('https://wiplat.com/wp-content/uploads/2024/10/image_fx_-33.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+    height:100vh;
+    width:100vw;
+}
+h1{
+    font-family: cursive;
+    font-size: 38px;
+    color:rgb(98, 169, 241);
+}
+#main_img
+{
+    width:100%;
+    height:100%;
+}
+.container {
+    padding: 50px;
+}
+
+.animation, .video {
+    margin: 20px auto;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #19191a;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+.btn:hover {
+    background-color: #0277bd;
+}
